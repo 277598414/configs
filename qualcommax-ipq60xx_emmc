@@ -2598,7 +2598,7 @@ CONFIG_NSS_DRV_OAM_ENABLE=y
 CONFIG_NSS_DRV_PPE_ENABLE=y
 CONFIG_NSS_DRV_PPPOE_ENABLE=y
 CONFIG_NSS_DRV_PPTP_ENABLE=y
-# CONFIG_NSS_DRV_PVXLAN_ENABLE is not set
+CONFIG_NSS_DRV_PVXLAN_ENABLE=y
 CONFIG_NSS_DRV_QRFS_ENABLE=y
 # CONFIG_NSS_DRV_QVPN_ENABLE is not set
 # CONFIG_NSS_DRV_OVPN_ENABLE is not set
@@ -2633,7 +2633,7 @@ CONFIG_PACKAGE_kmod-qca-nss-drv-netlink=y
 # CONFIG_PACKAGE_kmod-qca-nss-drv-ovpn-mgr is not set
 CONFIG_PACKAGE_kmod-qca-nss-drv-pppoe=y
 # CONFIG_PACKAGE_kmod-qca-nss-drv-pptp is not set
-# CONFIG_PACKAGE_kmod-qca-nss-drv-pvxlanmgr is not set
+CONFIG_PACKAGE_kmod-qca-nss-drv-pvxlanmgr=m
 CONFIG_PACKAGE_kmod-qca-nss-drv-tlsmgr=y
 # CONFIG_PACKAGE_kmod-qca-nss-drv-tun6rd is not set
 # CONFIG_PACKAGE_kmod-qca-nss-drv-tunipip6 is not set
